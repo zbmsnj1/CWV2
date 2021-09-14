@@ -1,0 +1,382 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6290215112645027489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6290215112645027503}
+  - component: {fileID: 6290215112645027488}
+  m_Layer: 0
+  m_Name: ChessData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6290215112645027503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6290215112645027489}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: 1, z: 5.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6290215112645027488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6290215112645027489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d9f3115397702645ba4b5c4256e845a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allChessData:
+  - chessName: axe1
+    id: 1
+    star: 1
+    price: 1
+    _race: Orc
+    _class: Warrior
+    max_HP: 700
+    baseAttack_dmg: 50
+    atk_speed: 1
+    armor: 5
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: axe2
+    id: 2
+    star: 2
+    price: 3
+    _race: Orc
+    _class: Warrior
+    max_HP: 1400
+    baseAttack_dmg: 100
+    atk_speed: 1
+    armor: 5
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: axe3
+    id: 3
+    star: 3
+    price: 5
+    _race: Orc
+    _class: Warrior
+    max_HP: 2800
+    baseAttack_dmg: 200
+    atk_speed: 1
+    armor: 5
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: bm1
+    id: 4
+    star: 1
+    price: 2
+    _race: Orc
+    _class: Warrior
+    max_HP: 600
+    baseAttack_dmg: 70
+    atk_speed: 1
+    armor: 7
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: bm2
+    id: 5
+    star: 2
+    price: 4
+    _race: Orc
+    _class: Warrior
+    max_HP: 1200
+    baseAttack_dmg: 140
+    atk_speed: 1
+    armor: 7
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: bm3
+    id: 6
+    star: 3
+    price: 6
+    _race: Orc
+    _class: Warrior
+    max_HP: 2400
+    baseAttack_dmg: 280
+    atk_speed: 1
+    armor: 7
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: sb1
+    id: 7
+    star: 1
+    price: 1
+    _race: Orc
+    _class: Hunter
+    max_HP: 600
+    baseAttack_dmg: 60
+    atk_speed: 1.5
+    armor: 3
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 5
+  - chessName: sb2
+    id: 8
+    star: 2
+    price: 3
+    _race: Orc
+    _class: Hunter
+    max_HP: 1200
+    baseAttack_dmg: 120
+    atk_speed: 1.5
+    armor: 3
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 5
+  - chessName: sb3
+    id: 9
+    star: 3
+    price: 5
+    _race: Orc
+    _class: Hunter
+    max_HP: 2400
+    baseAttack_dmg: 240
+    atk_speed: 1.5
+    armor: 3
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 5
+  - chessName: slardar1
+    id: 10
+    star: 1
+    price: 3
+    _race: Orc
+    _class: Hunter
+    max_HP: 900
+    baseAttack_dmg: 70
+    atk_speed: 1.5
+    armor: 3
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: slardar2
+    id: 11
+    star: 2
+    price: 5
+    _race: Orc
+    _class: Hunter
+    max_HP: 1800
+    baseAttack_dmg: 140
+    atk_speed: 1.5
+    armor: 3
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: slardar3
+    id: 12
+    star: 3
+    price: 7
+    _race: Orc
+    _class: Hunter
+    max_HP: 3600
+    baseAttack_dmg: 280
+    atk_speed: 1.5
+    armor: 3
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: abaddon1
+    id: 13
+    star: 1
+    price: 2
+    _race: Undead
+    _class: Warrior
+    max_HP: 750
+    baseAttack_dmg: 55
+    atk_speed: 1.1
+    armor: 7
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: abaddon2
+    id: 14
+    star: 2
+    price: 4
+    _race: Undead
+    _class: Warrior
+    max_HP: 1500
+    baseAttack_dmg: 110
+    atk_speed: 1.1
+    armor: 7
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: abaddon3
+    id: 15
+    star: 3
+    price: 6
+    _race: Undead
+    _class: Warrior
+    max_HP: 3000
+    baseAttack_dmg: 220
+    atk_speed: 1.1
+    armor: 7
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: brm1
+    id: 16
+    star: 1
+    price: 3
+    _race: Undead
+    _class: Hunter
+    max_HP: 650
+    baseAttack_dmg: 80
+    atk_speed: 1.5
+    armor: 3
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: brm2
+    id: 17
+    star: 2
+    price: 5
+    _race: Undead
+    _class: Hunter
+    max_HP: 1300
+    baseAttack_dmg: 160
+    atk_speed: 1.5
+    armor: 3
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: brm3
+    id: 18
+    star: 3
+    price: 7
+    _race: Undead
+    _class: Hunter
+    max_HP: 2600
+    baseAttack_dmg: 320
+    atk_speed: 1.5
+    armor: 3
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: lich1
+    id: 19
+    star: 1
+    price: 4
+    _race: Undead
+    _class: Hunter
+    max_HP: 600
+    baseAttack_dmg: 100
+    atk_speed: 1.5
+    armor: 3
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 4
+  - chessName: lich2
+    id: 20
+    star: 2
+    price: 6
+    _race: Undead
+    _class: Hunter
+    max_HP: 1200
+    baseAttack_dmg: 200
+    atk_speed: 1.5
+    armor: 3
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 4
+  - chessName: lich3
+    id: 21
+    star: 3
+    price: 8
+    _race: Undead
+    _class: Hunter
+    max_HP: 2400
+    baseAttack_dmg: 400
+    atk_speed: 1.5
+    armor: 3
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 4
+  - chessName: wk1
+    id: 22
+    star: 1
+    price: 2
+    _race: Undead
+    _class: Warrior
+    max_HP: 750
+    baseAttack_dmg: 60
+    atk_speed: 1.1
+    armor: 7
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: wk2
+    id: 23
+    star: 2
+    price: 4
+    _race: Undead
+    _class: Warrior
+    max_HP: 1500
+    baseAttack_dmg: 120
+    atk_speed: 1.1
+    armor: 7
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1
+  - chessName: wk3
+    id: 24
+    star: 3
+    price: 6
+    _race: Undead
+    _class: Warrior
+    max_HP: 3000
+    baseAttack_dmg: 240
+    atk_speed: 1.1
+    armor: 7
+    baoji: 0
+    lifeSteal: 0
+    HP_Regen: 0
+    atk_Range: 1

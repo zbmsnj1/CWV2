@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7768129265139694030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7768129265139694032}
+  - component: {fileID: 7768129265139694031}
+  m_Layer: 0
+  m_Name: AllChessInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7768129265139694032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7768129265139694030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 433.03934, y: 245.29897, z: 8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7768129265139694031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7768129265139694030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7133174d904c74b4cbd0b4735e0d440a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  red_eff: {fileID: 3129017793527527932, guid: 810be57cb984f884283113e22fc2f78c, type: 3}
+  blue_eff: {fileID: 6785614315995311975, guid: 5ea18842c82ac0c41abbdeef5f4cf97f,
+    type: 3}
+  green_eff: {fileID: 7113039242897577825, guid: 0d44b38307070cd49ab3c2cb4c2fcb32,
+    type: 3}
+  line1_r: {fileID: 0}
+  line1_b: {fileID: 0}
+  line1_g: {fileID: 0}
+  line3_r: {fileID: 0}
+  line3_b: {fileID: 0}
+  line3_g: {fileID: 0}
+  line5_r: {fileID: 0}
+  line5_b: {fileID: 0}
+  line5_g: {fileID: 0}
+  fireworkwin: {fileID: 0}
+  fireworklose: {fileID: 0}
+  enemyBigSlider: {fileID: 0}
+  playerBigSlider: {fileID: 0}
+  upStarEffect_1: {fileID: 6233095751301974794, guid: e5c48d5d02b64604c8c656332a95b733,
+    type: 3}
+  upStarEffect_2: {fileID: 6457671982871296307, guid: bdd5f2900fc8ce649ac073facb16b73f,
+    type: 3}
+  winFireworks: {fileID: 0}
+  OurChess: {fileID: 0}
+  OurEnemy: {fileID: 0}
+  BattleChess: {fileID: 0}
+  chessTag: {fileID: 3625619311472823065, guid: 4b3c6d6027e05ce4b9c7f59f9bf304b5,
+    type: 3}
+  selfSlider: {fileID: 1900310273098098392, guid: 999c665fb24f24c4e8d3579ff8f8bfbd,
+    type: 3}
+  enemySlider: {fileID: 6784895512608513125, guid: d1d3d39722b356c4e8ee5c8a98ee169d,
+    type: 3}
+  benchCollider: {fileID: 815849183834527264, guid: f4ccc99d6d18037478ca6b214c6a8ff1,
+    type: 3}
+  enemyModel:
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  - {fileID: 5548462592196633817, guid: 75a2c0202034c4048ae75bfb2ba30615, type: 3}
+  benchTiles:
+  - pos: {x: -0.5, y: 1.5, z: -3}
+  - pos: {x: 0.5, y: 1.5, z: -3}
+  - pos: {x: 1.5, y: 1.5, z: -3}
+  - pos: {x: 2.5, y: 1.5, z: -3}
+  - pos: {x: 3.5, y: 1.5, z: -3}
+  - pos: {x: 4.5, y: 1.5, z: -3}
+  - pos: {x: 5.5, y: 1.5, z: -3}
+  - pos: {x: 6.5, y: 1.5, z: -3}
+  chesses:
+  - model: {fileID: 9196931887505298347, guid: da54e7c27e1a9f848960e6992dc4a7f5, type: 3}
+  - model: {fileID: 3600730211276028273, guid: ef3b6b5918748f54fb71a3a8faffe9ba, type: 3}
+  - model: {fileID: 2228278288017079247, guid: d1e44bff0e1726d4d8814fd6bbc035f7, type: 3}
+  - model: {fileID: 5444688664783125774, guid: 5331ea313c24dac4f94a928a7537d072, type: 3}
+  - model: {fileID: 1061725166900346404, guid: 26512484d02b4314bab49583652a405b, type: 3}
+  - model: {fileID: 8746837237685931176, guid: 112daffe6cca0db459c2f999ee1ba08a, type: 3}
+  - model: {fileID: 773130967264617526, guid: c1720b614f9758e4094ddc2ab00e1cd5, type: 3}
+  - model: {fileID: 243465221901852779, guid: 36106ddd875bb6147853663f1c4499b9, type: 3}
+  - model: {fileID: 3819129056300723985, guid: abfc6a2a680dedf43908a3d40be1c606, type: 3}
+  - model: {fileID: 6685184536166128224, guid: 43b2834227608e24d982e77ccfb15381, type: 3}
+  - model: {fileID: 6352547314494305168, guid: e5bdf52ced440ad43a91a5ee5bb0dfef, type: 3}
+  - model: {fileID: 90387389964213658, guid: c7db244fbb190ef4bbadf9f8521145ce, type: 3}
+  - model: {fileID: 8432664644271197628, guid: 31832596e69700847927876ea2b79a26, type: 3}
+  - model: {fileID: 3476288304192272961, guid: d48ce4e665acbd44c864f3c52ba9f549, type: 3}
+  - model: {fileID: 3369631131723051390, guid: 9f53d1b8686bdba46837216ad1152594, type: 3}
+  - model: {fileID: 4724816092531246902, guid: f28636cf1c01fec47be0f6b38d1a682a, type: 3}
+  - model: {fileID: 711235850212476623, guid: dd748ece943df004cb0ec487a96ef314, type: 3}
+  - model: {fileID: 4979013228631553582, guid: 5c740cd35ca92db4bb83b74850818809, type: 3}
+  - model: {fileID: 1223643465311312497, guid: bcce1923c8cc43044853ad2cd85faf2d, type: 3}
+  - model: {fileID: 7084378972901108386, guid: 7e3e46d00a985d64bb9b245b31d98b60, type: 3}
+  - model: {fileID: 8477701158682441899, guid: 20a380f8ec4d6f143812bb09ff16a2a0, type: 3}
+  - model: {fileID: 225020507796897666, guid: 8c6ef29d94d7b2b47aa798c45cd8443a, type: 3}
+  - model: {fileID: 7269072634391073968, guid: 48a0739bd72b20346a3bf6e2c785d4d2, type: 3}
+  - model: {fileID: 6193372829432563463, guid: 2b303a80578d08041a0cc084c51398e8, type: 3}
