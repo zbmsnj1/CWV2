@@ -460,7 +460,7 @@ public class ChessStruct : MonoBehaviour
             var eSlider = Instantiate(enemySlider, enemy_slider_position, transform.rotation);
             eSlider.transform.SetParent(go.transform);
             go.GetComponent<BoxCollider>().size = star3_size;
-            go.AddComponent<NavMeshAgent>();    //仅仅在初始化敌人时，添加NavMesh，初始化己方棋子时不添加，在ready阶段添加
+            //go.AddComponent<NavMeshAgent>();    //仅仅在初始化敌人时，添加NavMesh，初始化己方棋子时不添加，在ready阶段添加//在automve已经添加了
         }
 
 

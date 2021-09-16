@@ -255,6 +255,7 @@ public class GameControlSystem : MonoBehaviour
         {
             for (int i = 0; i < 50; i++)
             {
+                chessPool.Add(1);
                 chessPool.Add(16);
                 chessPool.Add(4);
                 chessPool.Add(7);
@@ -264,9 +265,7 @@ public class GameControlSystem : MonoBehaviour
                 chessPool.Add(13);
                 
             }
-            for(int i = 0; i<10; i++){
-                chessPool.Add(4);
-            }
+            
         }
 
         if (TimeDown.ROUND == 2)

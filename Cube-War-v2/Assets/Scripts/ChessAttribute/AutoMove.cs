@@ -422,30 +422,14 @@ public class AutoMove : MonoBehaviour
         }
     }
 
-    void findClosedEnemy()
-    {
-        if(enemies.Count() == 0)
-            return;
-
-        if(enemy!= null && enemy.GetComponent<Character>().now_HP > 0)
-            return;
-        enemy = null;
-
-        
-
-        sortedEnemies =   enemies.OrderBy(pair => pair.Value).ToDictionary(p => p.Key, p => p.Value);
-
-        enemy = sortedEnemies.First().Key;
-
-    }
 
 
     GameObject findNthClosedEnemy(GameObject e, int i){
         if(enemies.Count() < i)
             return null;
 
-        if(e!= null && e.GetComponent<Character>().now_HP > 0)
-            return e;
+        //if(e!= null && e.GetComponent<Character>().now_HP > 0)  //如果加上这个，棋子不会改变目标，直到enemy死才换目标
+            //return e;
         e = null;
 
         
