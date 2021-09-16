@@ -3,4 +3,3 @@
 
 ![image](https://github.com/zbmsnj1/CWV2/blob/main/Fig/Picture2.png)
 
-![image](https://github.com/zbmsnj1/CWV2/blob/main/Fig/Picture1.png)
