@@ -256,11 +256,11 @@ public class GameControlSystem : MonoBehaviour
             for (int i = 0; i < 50; i++)
             {
                 chessPool.Add(16);
-                //chessPool.Add(4);
+                chessPool.Add(4);
                 chessPool.Add(7);
                 chessPool.Add(10);
-                //chessPool.Add(19);
-                //chessPool.Add(22);
+                chessPool.Add(19);
+                chessPool.Add(22);
                 chessPool.Add(13);
                 
             }
